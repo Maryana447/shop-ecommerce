@@ -9,4 +9,6 @@ eCommerce website
         - [ ] navigation menu
         - [ ] icons panel   
     - [ ] create main banner section
-    - [ ] create section "Browse The Range"
+    - [ ] create section "Our Products"
+    - [ ] create button "Show More"
+    
