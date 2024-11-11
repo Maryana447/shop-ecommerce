@@ -3,7 +3,7 @@ eCommerce website
 
 ### Tickets
 - [ ] MBT-1 - Create Shop page (HTML, CSS)
-    - [ ] create Todo list
+    - [x] create Todo list
     - [ ] create header
         - [ ] logo
         - [ ] navigation menu
