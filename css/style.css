@@ -1,0 +1,196 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+html,
+body {
+    height: 100%;
+    line-height: 1.5;
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+    font-family: Poppins, serif;
+    background-color: #FAFAFA;
+}
+
+.wrapper {
+    min-height: 120%;
+    display: flex;
+    flex-direction: column;
+    overflow: clip;
+}
+
+.wrapper>main {
+    flex-grow: 1;
+}
+
+[class*="__container"] {
+    max-width: 1251px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+/*----ШАПКА----------------------------------------------------------*/
+.header {}
+
+.header__body {
+    width: 100%;
+    padding: 30px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo img {
+    width: 185px;
+}
+
+.menu__list {
+    margin-left: 266px;
+}
+
+.menu__list a {
+    color: #000;
+}
+
+.menu__list a:hover {
+    text-decoration: underline;
+}
+
+.menu__items {
+    display: flex;
+    gap: 75px;
+
+}
+
+.menu__icons {
+    display: flex;
+    margin-left: 158px;
+    margin-right: 100px;
+    gap: 45px;
+}
+
+/*----MAIN PAGE----------------------------------------------------------*/
+.page {}
+
+.page__content {
+    position: absolute;
+    z-index: 50;
+    left: 740px;
+    top: 328px;
+    max-width: 643px;
+    padding: 60px 40px;
+    background-color: #FFF3E3;
+    border-radius: 10px;
+}
+
+.page__label {
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: 3px;
+    color: #333333;
+    margin-bottom: 4px;
+}
+
+.page__title {
+    font-weight: 700;
+    color: #B88E2F;
+    font-size: 52px;
+    margin-bottom: 17px;
+}
+
+.page__text {
+    font-weight: 500;
+    color: #333333;
+    font-size: 18px;
+    margin-bottom: 46px;
+}
+
+.page__button {
+    width: 222px;
+    height: 74px;
+    background-color: #B88E2F;
+    display: inline-block;
+    padding: 25px 72px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.page__cover {}
+
+.page__cover img {
+    width: 100%;
+}
+
+/*-----------------------RANGE---------------------------------------*/
+.page__range {}
+
+.range__container {}
+
+.range__body {}
+
+.range__header {
+    margin-top: 56px;
+    margin-bottom: 62px;
+    text-align: center;
+}
+
+.range__title {
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.range__subtitle {
+    color: #666666;
+    font-weight: 400;
+    
+}
+
+.range__body-images {}
+
+.range__items {
+    display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  
+}
+
+.range__item {}
+
+.range__text {
+    text-align: center;
+}
