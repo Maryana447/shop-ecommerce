@@ -146,6 +146,10 @@ body {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 16px;
+    transition: all 0.3s ease 0s;
+}
+.page__button:hover{
+    background-color: #d8bb79;
 }
 
 .page__cover {}
@@ -159,7 +163,9 @@ body {
 
 .range__container {}
 
-.range__body {}
+.range__body {
+    margin-bottom: 56px;
+}
 
 .range__header {
     margin-top: 56px;
@@ -177,20 +183,118 @@ body {
 .range__subtitle {
     color: #666666;
     font-weight: 400;
-    
+
 }
 
 .range__body-images {}
 
 .range__items {
     display: flex;
-  justify-content: space-between;
-  gap: 20px;
-  
+    justify-content: space-between;
+    gap: 20px;
+
 }
 
-.range__item {}
-
-.range__text {
+.range__item {
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    gap: 30px;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.range__text {}
+
+/*-----------------------PRODUCTS---------------------------------------*/
+.page__products {
+    margin-bottom: 69px;
+}
+
+.products__title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    margin: 0px 0px 32px 0px;
+}
+
+.products__row {
+    display: flex;
+    /* gap: 32px; */
+    justify-content: space-between;
+}
+
+.products__row:not(:last-child) {
+    margin-bottom: 32px;
+}
+
+.products__item {
+    /*flex: 0 0 285px;*/
+    position: relative;
+    width: 286px;
+    height: 446px;
+    overflow: hidden;
+    transition: all 0.3s ease 0s;
+
+}
+.products__item:hover{
+    opacity: 0.33;
+    
+}
+.products__image {}
+
+.products__image img {
+    width: 285px;
+    height: 301px;
+}
+
+.product__descr {
+    background-color: #F4F5F7;
+    padding-top: 16px;
+    padding-left: 15px;
+    padding-bottom: 30px;
+}
+
+.product__title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.product__subtitle {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #898989;
+}
+
+.product__price {}
+
+.current-price {
+    margin-right: 16px;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #B0B0B0;
+}
+
+.button {
+    text-align: center;
+    margin-top: 32px;
+}
+
+.product__button {
+    display: inline;
+    color: #B88E2F;
+    padding: 12px 80px;
+    border: 1px solid #B88E2F;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+}
+
+.product__button:hover {
+    background-color: #c6a65b;
+    color: #fff;
 }
