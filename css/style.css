@@ -221,6 +221,7 @@ body {
 
 .products__row {
     display: flex;
+    flex-wrap: wrap;
     /* gap: 32px; */
     justify-content: space-between;
 }
@@ -238,10 +239,29 @@ body {
     transition: all 0.3s ease 0s;
 
 }
-.products__item:hover{
+
+.products__item--hover-box {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: #333333;
+    opacity: 0.5;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/* .products__item:hover{
     opacity: 0.33;
     
+} */
+
+.products__item:hover .products__item--hover-box{
+    display: flex;
 }
+
 .products__image {}
 
 .products__image img {
