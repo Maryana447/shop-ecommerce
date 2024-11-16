@@ -250,7 +250,13 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-
+.hover__button a{
+    padding: 12px 59px;
+    background-color: #fff;
+    color: #B88E2F;
+font-weight: 600;
+position: absolute;
+}
 
 
 /* .products__item:hover{
@@ -306,7 +312,7 @@ body {
 }
 
 .product__button {
-    display: inline;
+    display: inline-block;
     color: #B88E2F;
     padding: 12px 80px;
     border: 1px solid #B88E2F;
@@ -317,4 +323,131 @@ body {
 .product__button:hover {
     background-color: #c6a65b;
     color: #fff;
+}
+/*-----------------------ROOMS---------------------------------------*/
+.page__rooms {
+    background-color: #FCF8F3;
+}
+.rooms__body {
+    padding-top: 44px;
+    padding-bottom: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 1440px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.rooms__content {
+    margin-left: 100px;
+    margin-right: 42px;
+
+}
+.rooms__content-body{
+    margin-bottom: 25px;
+}
+.rooms__title {
+color: #3A3A3A;
+font-size: 40px;
+font-weight: 700;
+line-height: 1.2;
+text-align: left;
+margin-bottom: 7px;
+
+}
+.room__text {
+    color: #616161;
+    font-weight: 500;
+    line-height: 1.5;
+    
+
+}
+.room__button {
+    display: inline-block;
+    padding: 12px 36px;
+    background-color: #B88E2F;
+    color: #FFFFFF;
+    width: 176px;
+    height: 48px;
+    
+}
+.room__button a{
+    color: #FFFFFF;
+    padding: 12px 36px;
+
+    
+}
+.rooms__slider {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.slider-item {
+    position: relative;
+}
+.slider-caption {
+    width: 217px;
+    height: 130px;
+    display: flex;
+    position: absolute;
+    left: 24px;
+    bottom: 24px;
+    background-color: #FFFFFFB8;
+}
+.caption__text span{
+   color: #616161;
+   margin-bottom: 8px;
+   text-align: center;
+   
+}
+.caption__text h4{
+    color: #3A3A3A;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 1.2;
+}
+
+
+.arrow-link {
+}
+
+/*-----------------------FOOTER---------------------------------------*/
+.footer {
+}
+
+.nav__menu {
+    margin-top: 48px;
+}
+.nav__items {
+    display: flex;
+    justify-content: space-between;
+}
+.nav__item {
+}
+
+
+.footer__menu-items {
+    display: flex;
+}
+.footer__adress {
+}
+.adress__item {
+}
+
+
+.footer__menu-links {
+}
+.footer__menu-link {
+}
+
+
+.menu__newsletter {
+}
+.footer__input {
+}
+.footer__button {
+}
+
+
+.footer__copy {
 }
