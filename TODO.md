@@ -11,20 +11,20 @@ eCommerce website
     - [x] create main banner section
     - [x] create section "Our Products"
     - [x] create button "Show More"
-    - [ ] create section Rooms
+    - [x] create section Rooms
         - [x] text
-        - [ ] button
-        - [ ] slider
-        - [ ] caption
-        - [ ] arrow
+        - [x] button
+        - [x] slider
+        - [x] caption
+        - [x] arrow
     - [ ] create section Share 
         - [ ] text
         - [ ] images
-    - [ ] create section Footer
-        - [ ] adress
-        - [ ] links
-        - [ ] help
-        - [ ] newsletter
-        - [ ] copyright
+    - [x] create section Footer
+        - [x] adress
+        - [x] links
+        - [x] help
+        - [x] newsletter
+        - [x] copyright
    
     
